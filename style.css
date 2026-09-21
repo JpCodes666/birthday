@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    background: #6c63ff;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+.card {
+    background: #fdfdfd;
+    border-radius: 16px;
+    min-height: 70vh;
+    width: 80vw;
+    max-width: 1000px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    overflow: hidden;
+}
+
+.card img.birthday {
+    width: 100%;
+    max-width: 400px;
+    max-height: 40vh;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.text {
+    padding: 1em;
+    color: #333;
+    max-width: 650px;
+}
+
+.text h1 {
+    color: #6c63ff;
+    margin-bottom: 15px;
+}
+
+.text p {
+    line-height:
